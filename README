@@ -18,4 +18,6 @@ Lua 5.1.4 from www.lua.org was used.
 
 nlp-cipher decodes the ciphered text by trying each rotation and scoring it based upon English letter frequencies.
 
+nlp-shred decodes the shredded text by a greedy algorithm based upon English digraph frequencies. (It's not working 100% yet.)
+
 unit22-2 brute forces the grammar to generate all possible parse trees, counting the ones that match the target sentences.
